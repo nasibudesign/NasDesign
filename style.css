@@ -3,3 +3,29 @@
     margin: 0;
     padding: 0;
 }
+/*--nav-bar section--*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px ;
+}
+.navbar-brand li
+{
+    padding: 0 60px;
+}
+#nav-bar ul li a:hover
+{
+    color: rgba(0, 0, 110, 0.747) !important;
+    border-bottom: 1px #555 solid;
+    transition: 0.2s ease-in;
+}
+.nav-item
+{
+    padding: 0 10px;
+}
