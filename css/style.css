@@ -1,6 +1,10 @@
 
 /*-- import fonts from fonts.css--*/
 @import url(./fonts.css);
+/*css variable*/
+@import url(./partials/_variables.css);
+
+
 /*--nav-bar section--*/
 
 .header_area .main-menu .navbar .navbar-brand{
@@ -14,13 +18,16 @@
     height: 40px;
     padding-left: 30px ;
 }
-.main-menu ul li a:hover
-{
-    color: rgba(0, 0, 110, 0.747) !important;
-    border-bottom: 1px #555 solid;
-    transition: 0.2s ease-in;
+.header_area .main-menu .nav-item .nav-link {
+    font-family: var(--roboto);
+    padding: 1rem;
+    font-weight: 500;
+    color: var(--my-primary-color3); 
 }
-.nav-item
-{
-    padding: 0 10px;
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
