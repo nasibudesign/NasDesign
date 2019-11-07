@@ -3,7 +3,7 @@
 @import url(./fonts.css);
 /*css variable*/
 @import url(./partials/_variables.css);
-
+@import url(./partials/_global.css);
 
 /*--nav-bar section--*/
 .header_area{
@@ -79,5 +79,5 @@ height: 100vh;
 .site-main .site-banner .banner-image img:hover{
     filter: grayscale(0);
     transition: 0.5s;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.452);
+    box-shadow: var(--box-shadow)
 } 
