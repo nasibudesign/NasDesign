@@ -17,6 +17,7 @@ html, body{
     --text-color: #777777;
     --border-color: #201f1f17;
     --gradient-color: linear-gradient(90deg, #4458dc 0%, rgba(0, 0, 110, 1));
+    --gradient-color1: linear-gradient(45deg, #c5c5c5 0%, rgb(255, 97, 221));
     --shadow-color: 0px 10px 30px rgba(118,85,225,0.3);
     --box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
 
