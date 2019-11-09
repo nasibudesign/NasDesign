@@ -87,7 +87,7 @@ height: 100vh;
 /*about Area*/
 
 .site-main .about-area{
-    padding: 8rem 15rem;
+    padding: 3rem 15rem;
 }
 .site-main .about-area .about-me{
     font: normal bold 49px/60px var(--roboto);
@@ -102,17 +102,42 @@ height: 100vh;
     padding: .4rem 0;
 }
 .site-main .about-area .skills-bar{
-    margin-top: 5rem;
+    margin-top: 2px;
+}
+
+.experience-area{
+    padding-top: 2rem;
+
+    padding-bottom: 0rem;
+}
+.experience-area span{
+    display: block;
+}
+.experience-area .years-area{
+    background: url(../img/client-info-bg.png) no-repeat 45px 20px;
+    padding:2rem 0;
+    width: 40rem;
+    height: 14rem;
+    padding-left: 9rem;
+    position: relative;
+}
+.experience-area .years-area .years{
+    font: normal bold 84px/40px var(--roboto);
+    color: var(--primary-color2);
+    z-index: 2;
+}
+.experience-area .years-area .years-practice{
+    font: normal 600 22px/30px var(--roboto);
 }
 .skills-bar p
 {
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     font-weight: 600;
 }
 .progress
 {
     border-radius: 16px !important;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 .progress-bar
 {

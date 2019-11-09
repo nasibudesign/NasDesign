@@ -58,7 +58,3 @@ p.para{
     color: var(--text-color);
     font: normal 500 16px/25px var(--roboto);
 }
-
-.my-center{
-    text-align: center;
-}
