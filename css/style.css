@@ -89,7 +89,10 @@ height: 100vh;
 .site-main .about-area{
     padding: 3rem 15rem;
 }
-.site-main .about-area .about-me{
+.site-main .about-area h1{
+    font-size: 35px;
+}
+.site-main .about-area .about-title{
     font: normal bold 49px/60px var(--roboto);
 }
 
@@ -145,9 +148,33 @@ height: 100vh;
     background: var(--gradient-color);
     
 }
-.cv-btn {
-    margin-top: 3rem ;
-}
-
 
 /*End of About Area */
+
+/*Services Area*/
+
+.services-area{
+    padding: 5rem 2rem;
+}
+
+.services-area .services-title{
+    padding: 0 14rem;
+}
+
+.services-area .services-title h1{
+    font-size: 35px;
+}
+
+.services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem 0.5rem;
+    transition: .7s ease;
+    box-shadow: var(--box-shadow-light);
+}
+.services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/*End of Services Area*/

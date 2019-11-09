@@ -58,3 +58,16 @@ p.para{
     color: var(--text-color);
     font: normal 500 16px/25px var(--roboto);
 }
+
+.icon
+{
+    font-size: 35px;
+    margin: 0rem auto;
+    padding: 10px 0 20px 0;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    color: var(--primary-color);
+    border: 3px solid var(--primary-color);
+    border-radius: 50%;
+}

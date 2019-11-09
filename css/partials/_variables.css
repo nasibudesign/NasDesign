@@ -20,6 +20,7 @@ html, body{
     --gradient-color1: linear-gradient(45deg, #c5c5c5 0%, rgb(255, 97, 221));
     --shadow-color: 0px 10px 30px rgba(118,85,225,0.3);
     --box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+    --box-shadow-light: 0px 1px 10px rgba(57,56,61,0.101);
 
     /*font family variable */
     --roboto: 'Roboto',cursive;
