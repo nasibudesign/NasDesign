@@ -71,3 +71,12 @@ p.para{
     border: 3px solid var(--primary-color);
     border-radius: 50%;
 }
+
+button:focus,
+button:active,
+button:hover
+.btn:active,
+.btn.btn:active{
+    outline: 0px !important;
+    box-shadow: none !important;
+}
